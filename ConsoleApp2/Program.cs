@@ -42,9 +42,10 @@ namespace HomeWork
     class NarMobile : IPay
     {
         string number;
-
-        public NarMobile(string number)
+        int a;
+        public NarMobile(string number,int a)
         {
+            this.a=a;
             this.number = number;
         }
 
